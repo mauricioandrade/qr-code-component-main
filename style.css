@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.cartaoimg {
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+.cartaoqr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 560px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.cartaoqr img {
+    width: 100%;
+}
+
+.descricao {
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.texto {
+    color: hsl(216, 15%, 48%);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+@media (max-widht:375px) {
+    .cartao{
+        width: 300px;
+    }
+}
